@@ -2,14 +2,14 @@ import math
 
 # Lista de Exercícios - 1 
 
-# 1
+# 1 --------------------------------------
 print("\n1 - Faça um programa que escreva o seu nome completo em python")
 print("Everthon Igor de Souza")
 
-# 2
+# 2 --------------------------------------
 print("\n2 - Qual é o tipo de dado (int ou float) do resultado de cada uma das operações matemáticas abaixo? ")
 
-# 3
+# 3 --------------------------------------
 print("\n3 - E qual é o resultado das expressões do exercício 2 quando executadas no Python?")
 
 print("8 ÷ 4 + 2 x 3")
@@ -62,7 +62,7 @@ resultado = 20 - 4 * (math.sqrt(9) + 1)
 print(resultado)
 print(type(resultado)) # 4 -> int
 
-# 4
+# 4 --------------------------------------
 print("\n4 - Crie três variáveis para armazenar as seguintes informações: seu nome, sua idade e seu hobby favorito.") 
 print("Use f-strings para criar uma mensagem que inclua as três variáveis e imprima a mensagem no console.")
 nome = "Everthon"
@@ -70,7 +70,7 @@ idade = 32
 hobby = "estudar musica"
 print(f"Meu nome é {nome}, tenho {idade} anos e adoro {hobby}")
 
-# 5
+# 5 --------------------------------------
 questao = "\n5 - Você está trabalhando em um sistema para calcular o salário de um funcionário baseado em algumas variáveis, como o salário base, o bônus e os descontos. O código foi feito por outra pessoa e está apresentando um erro. Execute o código, identifique o erro e corrija-o. Justifique a sua correção com um comentário # acima do que foi corrigido. "
 print(questao)
 salario_base = 3500.00
@@ -80,7 +80,7 @@ salario_liquido = salario_base + bonus - descontos
 print(f"O salario liquido é {salario_liquido}")
 print("O erro estava na declaração no uso da variavel 'desconto', na declaração estava com 'd' maiusculo e no uso com o 'd' minusculo")
 
-# 6 
+# 6 --------------------------------------
 questao = "\n6 - Suponha que uma empresa tem um código de produto no formato PROD-XXXX, onde XXXX são dígitos de 0 a 9, e ela deseja verificar se os códigos segue o formato correto. Por exemplo, PROD-1234 é válido, mas prod-1234 e PROD1234 não são." 
 questao += "\nFaça um programa que retorne se o código prod0000 é válido ou não, justificando sua resposta."
 print(questao)
@@ -110,7 +110,7 @@ valida_codigo("prod-0000")
 valida_codigo("PROD-XXXX")
 valida_codigo("PROD-0000")
 
-# 7
+# 7 --------------------------------------
 questao = "\n7 - Você trabalha para o Detran/SP e recebeu uma tarefa de separar as partes (letras e números) de uma determinada placa de veículo no modelo antigo. Faça um código que automatize essa separação. Use a placa ABC-1234 como exemplo."
 print(questao)
 placa = "ABC-1234"
